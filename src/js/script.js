@@ -6,7 +6,7 @@ constenRougeSuiteAclick.addEventListener ("click", (evt)=>{
     constenRougeSuiteAclick.style.color='red'
 });
 constcollH2 = document.querySelectorAll ("h2")
-cconstollH2.forEach ((elm)=>{elm.addEventListener('click',(evt)=>{ 
+constcollH2.forEach ((elm)=>{elm.addEventListener('click',(evt)=>{ 
         evt.target.style.color = "red";
 });
 });
